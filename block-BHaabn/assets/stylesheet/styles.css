@@ -161,7 +161,7 @@ table {
 .col-3-2 {
   display: flex;
   justify-content: space-around;
-
+  align-items: baseline;
   margin-bottom: 36px;
 }
 img {
@@ -176,4 +176,10 @@ img {
 }
 .sm-icons a {
   margin-left: 16px;
+}
+.col {
+  flex: 1 1 30%;
+}
+.col1 {
+  flex: 0 1 100%;
 }
