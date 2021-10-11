@@ -11,7 +11,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/stylesheet/styles.css" />
+    <link rel="stylesheet" href="assets/stylesheet/styles.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -33,56 +35,62 @@
         </nav>
       </div>
     </header>
-    <main>
-        <div class="container flex">
-            <aside>
-                <div class="dashboard">
+    <main class="container flex padding">
+            <aside class="sidebar">
+                <nav class="sidebar-nav">
+                <a href="#">
                     <img src="assets/icons/dashboard.svg" alt="">
-                    <a href="">Dashboard</a>
-                </div>
+                    <span>Dashboard</span>
+                </a>
 
-                <div class="article">
+                <a class="active" href="#">
                     <img src="assets/icons/article.svg" alt="">
-                    <a href="">Article</a>
-                </div>
+                    <span>Article</span>
+                </a>
 
-                <div class="analytics">
+                <a  href="#">
                     <img src="assets/icons/analytics.svg" alt="">
-                    <a href="">Analytics</a>
-                </div>
+                    <span>Analytics</span>
+                </a>
 
-                <div class="inbox">
+                <a  href="#">
                     <img src="assets/icons/inbox.svg" alt="">
-                    <a href="">Inbox</a>
-                </div>
+                    <span>Inbox</span>
+                </a>
 
-                <div class="settings">
+                <a  href="#">
                     <img src="assets/icons/setting.svg" alt="">
-                    <a href="">Settings</a>
-                </div>
+                    <span>Settings</span>
+                </a>
 
-                <div class="log-out">
-                    <img src="assets/icons/log-out.svg" alt="">
-                    <a href="">Log Out</a>
-                </div>
+             
+            </nav>
+            <button class="logout-btn">
+                <img src="assets/icons/log-out.svg" alt="">
+                <span>Log Out  </span>
+            </button>
             </aside>
-        <article>
+        <article class="article">
             <img class="image1" src="assets/media/01.png" alt="">
-            <h1 class="main-header">Why were taking the AltCampus bootcamp</h1>
-            <p class="main-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque nobis corrupti accusantium animi sint sapiente modi mollitia tempore distinctio repellendus id suscipit, labore aliquid, esse officia quod ipsum exercitationem ab?</p>
-            <p class="main-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus molestiae nihil doloremque quis libero ad saepe amet modi officiis qui! Pariatur nihil totam deserunt. Explicabo labore nesciunt at ipsum culpa?</p>
-            <button>Read More</button>
+            <h1 class="heading">Why were taking the AltCampus bootcamp</h1>
+            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque nobis corrupti accusantium animi sint sapiente modi mollitia tempore distinctio repellendus id suscipit, labore aliquid, esse officia quod ipsum exercitationem ab?</p>
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus molestiae nihil doloremque quis libero ad saepe amet modi officiis qui! Pariatur nihil totam deserunt. Explicabo labore nesciunt at ipsum culpa?</p>
+            <a class="btn" href="">Read More</a>
         </article>
-    </div>
+    
 </body>
 </main>
-<footer>
+<footer class="footer">
     <div class="container flex">
-        
-          <p class="copyright">AltCampus</p>
-          <div class="sm-icons">
-              <a href=""><i class="fab fa-facebook-square"></i></a>
-              <a href=""><i class="fab fa-twitter-square"></i></a>
+        <small>&copy; AltCampus</small>
+        <nav>
+            <a href="">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+        </nav>
           </div>
        
       </div>
