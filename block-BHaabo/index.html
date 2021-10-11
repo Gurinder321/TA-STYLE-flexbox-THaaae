@@ -1,0 +1,98 @@
+<!-- 
+- Create a page using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper. 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/stylesheet/styles.css" /><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container flex">
+        <a href="" class="brand">
+          <img src="assets/icons/logo.svg" alt="" />
+        </a>
+        <nav class="nav">
+          <a class="bell-icon" href=""><img src="assets/icons/bell.svg" alt="" /></a>
+          <a class="user-name" href="">Sarah Jones</a>
+          <a class="user-icon" href=""><img src="assets/icons/user.svg" alt="" /></a>
+        </nav>
+      </div>
+    </header>
+    <main class="container flex padding">
+            <aside class="sidebar">
+                <nav class="sidebar-nav">
+                <a href="#">
+                    <img src="assets/icons/dashboard.svg" alt="">
+                    <span>Dashboard</span>
+                </a>
+
+                <a class="active" href="#">
+                    <img src="assets/icons/article.svg" alt="">
+                    <span>Article</span>
+                </a>
+
+                <a  href="#">
+                    <img src="assets/icons/analytics.svg" alt="">
+                    <span>Analytics</span>
+                </a>
+
+                <a  href="#">
+                    <img src="assets/icons/inbox.svg" alt="">
+                    <span>Inbox</span>
+                </a>
+
+                <a  href="#">
+                    <img src="assets/icons/setting.svg" alt="">
+                    <span>Settings</span>
+                </a>
+
+             
+            </nav>
+            <button class="logout-btn">
+                <img src="assets/icons/log-out.svg" alt="">
+                <span>Log Out  </span>
+            </button>
+            </aside>
+        <article class="article">
+            <img class="image1" src="assets/media/01.png" alt="">
+            <h1 class="heading">Why were taking the AltCampus bootcamp</h1>
+            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque nobis corrupti accusantium animi sint sapiente modi mollitia tempore distinctio repellendus id suscipit, labore aliquid, esse officia quod ipsum exercitationem ab?</p>
+            <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus molestiae nihil doloremque quis libero ad saepe amet modi officiis qui! Pariatur nihil totam deserunt. Explicabo labore nesciunt at ipsum culpa?</p>
+            <a class="btn" href="">Read More</a>
+        </article>
+    
+</body>
+</main>
+<footer class="footer">
+    <div class="container flex">
+        <small>&copy; AltCampus</small>
+        <nav>
+            <a href="">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+        </nav>
+          </div>
+       
+      </div>
+</footer>
+</html>
